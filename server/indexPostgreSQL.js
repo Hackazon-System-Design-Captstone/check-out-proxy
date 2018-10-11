@@ -28,7 +28,7 @@ const checkOutWidget = 'ec2-52-53-226-39.us-west-1.compute.amazonaws.com'
 
 app.use('/:id', express.static(path.join(__dirname, 'public')));
 
-
+app.get('/checkout/:id', proxy(checkOutWidget));
 
 // app.use(bodyParser.json());
 // // app.use((req, res, next) => {
