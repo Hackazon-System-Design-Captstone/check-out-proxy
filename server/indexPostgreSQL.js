@@ -1,7 +1,7 @@
 // let nr = require('newrelic');
 
 const express = require('express');
-const cors = require('cors');
+// const cors = require('cors');
 const redis = require("redis");
 const proxy = require('express-http-proxy');
 
